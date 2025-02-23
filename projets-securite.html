@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+
+        <title>Mes projets sécurité - Arthur's Tech Notebook</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo-top">
+                <img src="assets/logo.png" alt="Logo Arthur's Tech Notebook" style="width: 60%;">
+            </div>
+            <nav>
+                <a href="accueil.html">Accueil</a>
+                <div class="menu-container">
+                    <button class="menu-button"><u>Mes projets</u></button>
+                    <div class="menu-dropdown">
+                        <a href="projets-informatique.html">Projets informatique</a>
+                        <a href="projets-electronique.html">Projets électronique</a>
+                        <a href="projets-securite.html">Projets sécurité</a>
+                    </div>
+                </div>
+                <a href="formations.html">Mes formations</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="main-title">
+                <h1><em><u>Mes projets sécurité :</u></em></h1>
+            </div>
+            <div class="ssh-devastator">
+                <h3><u>SSH-Devastator : Programme de bruteforce de mots de passe SSH</u></h3>
+                <div class="content-ssh-devastator">
+                    <img src="assets/ssh-devastator.png" alt="Capture d'écran du programme SSH-Devastator" style="width: 45%; margin-right: 20px; border-radius: 10px;">
+                    <div class="text-ssh-devastator">
+                        <li>Description du projet : SSH-Devastator est un programme qui permet de casser des mots de passe SSH par la voie du bruteforce. Il prends en charge Un nom d'utilisateur unique ou une liste entière. De même pour les mots de passe.<br><br>Le programme sait réagir en cas de refus de l'hôte SSH après un certain nombre d'essais incorrects. Il s'arrête et reprends après un certain temps.<br><br>Il est également possible de configurer un port personnalisé.</li>
+                        <br>
+                        <li>Langage utilisé : Python</li>
+                        <br>
+                        <li>Nombre de lignes de code : 182</li>
+                        <br>
+                        <li>État du projet : Actuellement terminé ✅ -- Version 1.1.1</li>
+                        <br>
+                        <li>Lien du projet : <a href="https://github.com/Sensei-Snow/Hacking-Office/tree/main/SSH-Devastator">SSH-Devastator - Dossier GitHub</a></li>
+                    </div>
+                </div>
+            </div>
+            <div class="snoopport">
+                <h3><u>SnoopPort : Programme de scanner de ports</u></h3>
+                <div class="content-snoopport">
+                    <img src="assets/snoopport.png" alt="Capture d'écran du programme SnoopPort" style="width: 45%; margin-right: 20px; border-radius: 10px;">
+                    <div class="text-snoopport">
+                        <li>Description du projet : SnoopPort est un scanner de ports très simple. On lui donne l'adresse IPv4 d'une cible et le programme demande si l'on souhaite tester une liste de ports, un port unique ou bien la liste des ports les plus importants prédéfinis par le programme.<br><br>Ce dernier donne ensuite à la fin, un récapitulatif des ports ouverts</li>
+                        <br>
+                        <li>Langage utilisé : Python</li>
+                        <br>
+                        <li>Nombre de lignes de code : 207</li>
+                        <br>
+                        <li>État du projet : Actuellement terminé ✅ -- Version 1.0.1</li>
+                        <br>
+                        <li>Lien du projet : <a href="https://github.com/Sensei-Snow/Hacking-Office/tree/main/SnoopPort">SnoopPort - Dossier GitHub</a></li>
+                    </div>
+                </div>
+            </div>
+            <div class="intruspotter">
+                <h3><u>IntruSpotter : IDS (Intrusion Detection System) basique</u></h3>
+                <div class="content-intruspotter">
+                    <img src="assets/intruspotter.png" alt="Capture d'écran du programme Intruspotter" style="width: 45%; margin-right: 20px; border-radius: 10px;">
+                    <div class="text-intruspotter">
+                        <li>Description du projet : IntruSpotter est un programme qui analyse un réseau, plus particulièrement les paquets Wifi, à la recherche d'intrus.<br><br>Il est alors possible d'importer au format .txt une liste d'adresses Mac "bannies" pour qu'une alerte soit envoyée sur le bureau lorsque cette adresse Mac est détectée. Cette option est très utile si le logiciel doit être déployé 24/7.
+                        <br><br>Il est possible de faire de même avec une liste d'adresses Mac sûres qui, elles, seront ignorées par le programme.<br><br>Si le programme ne peut pas être déployé 24/7, il y a possibilité de faire une analyse en une fois des adresses MAC et IPv4 connectées au réseau.<br><br>Et afin d'identifier un appareil, le programme dispose d'une option pour afficher le constructeur de la carte réseau de celui-ci en fonction de son adresse Mac.</li>
+                        <br>
+                        <li>Langage utilisé : Python</li>
+                        <br>
+                        <li>Nombre de lignes de code : 853</li>
+                        <br>
+                        <li>État du projet : Actuellement terminé ✅ -- Version 1.0</li>
+                        <br>
+                        <li>Lien du projet : <a href="https://github.com/Sensei-Snow/Hacking-Office/tree/main/IntruSpotter">IntruSpotter - Dossier GitHub</a></li>
+                    </div>
+                </div>
+            </div>
+            <div class="wifi-capture">
+                <h3><u>Wi-Fi Capture - Un projet d'ingénierie sociale pour l'obtention de mots de passe Google et Facebook</u></h3>
+                <div class="content-wifi-capture">
+                    <img src="assets/wifi-capture.png" alt="Capture d'écran de la fausse page de connexion au Wi-Fi" style="width: 45%; margin-right: 20px; border-radius: 10px;">
+                    <div class="text-wifi-capture">
+                        <li>Ceci est un projet qui comprends de l'utilisation de logiciels de sécurité ainsi que de la programmation Web.<br><br>Le but de ce projet est de créer un faux point d'accès Wi-Fi qui redirige les utilisateurs vers une page de connexion qui ressemble à celles que l'ont peut retrouver dans un lieu public. Une fois les identifiants entrés, ils sont stockés dans un fichier texte.</li>
+                        <br>
+                        <li>Outils et langages utilisé : RaspAP pour faire un point d'accès Wi-Fi / Nodogsplash pour la configuration d'un capture portal / HTML/CSS (et un peu de PHP) pour l'affichage du site et la gestion des entrées utilisateurs</li>
+                        <br>
+                        <li>État du projet : Actuellement en cours de développement ▶️</li>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
