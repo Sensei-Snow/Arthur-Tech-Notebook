@@ -173,6 +173,18 @@ li {
     margin-top: 20px;
 }
 
+.thirty-img {
+    width: 30%;
+}
+
+.thirty-five-img {
+    width: 35%;
+}
+
+.fourty-five-img {
+    width: 45%;
+}
+
 /* ------------------------------------------------------------------------Adaptation Mobile */
 @media screen and (max-width: 768px) {
     /* Header/Footer */
@@ -222,6 +234,9 @@ li {
 
     img {
         margin-bottom: 15px;
+        margin-left: 30px;
+        max-width: 100%;
+        height: auto;
     }
 
     /* Formations */
@@ -233,6 +248,11 @@ li {
     .content-learn-language {
         flex-direction: column;
         align-items: center;
+        font-size: 13px;
+    }
+
+    .content-learn {
+        font-size: 13px;
     }
 
     .text-learn {
@@ -248,6 +268,22 @@ li {
     .content-info {
         flex-direction: column;
         align-items: center;
+        font-size: 13px;
+    }
+
+    .thirty-img {
+        width: 50%;
+        height: auto;
+    }
+
+    .thirty-five-img {
+        width: 60%;
+        height: auto;
+    }
+
+    .fourty-five-img {
+        width: 70%;
+        height: auto;
     }
 
     /* Projets sécurité */
@@ -259,5 +295,6 @@ li {
     .content-security {
         flex-direction: column;
         align-items: center;
+        font-size: 13px;
     }
 }
