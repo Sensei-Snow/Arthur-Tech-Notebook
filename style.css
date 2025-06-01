@@ -9,8 +9,8 @@
 
 header,
 footer {
-  background-color: #020818;
-  padding: 20px 50px;
+    background-color: #020818;
+    padding: 20px 50px;
 }
 
 header {
@@ -32,9 +32,14 @@ a:hover {
     filter: brightness(75%);
 }
 
+.logo-top {
+    width: 60%;
+}
+
 .menu-container {
     display: inline-block;
 }
+
 .menu-button {
     background-color: #020818;
     color: white;
@@ -48,14 +53,15 @@ a:hover {
 .menu-dropdown {
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: #020818;
+    border: solid 1px white;
+    border-radius: 5px;
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
     z-index: 1;
 }
 
 .menu-dropdown a {
-    color: black;
     display: block;
     border: none;
 }
@@ -88,6 +94,7 @@ main {
     flex-direction: row;
     justify-content: center;
     font-size: 22px;
+    text-align: center;
 }
 
 p {
@@ -100,7 +107,7 @@ li {
 
 /* ------------------------------------------------------------------------Formations */
 
-.learn-info {
+.learn-box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -111,88 +118,23 @@ li {
     padding: 20px;
 }
 
-.content-learn-info {
+.content-learn {
     display: flex;
     flex-direction: column;
     justify-content: left;
     margin-top: 20px;
 }
 
-.learn-python {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border: solid 1px white;
-    border-radius: 5px;
-    padding: 20px;
-}
-
-.content-learn-python {
+.content-learn-language {
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    margin-top: 20px;
-}
-
-.learn-cpp {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border: solid 1px white;
-    border-radius: 5px;
-    padding: 20px;
-}
-
-.content-learn-cpp {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    margin-top: 20px;
-}
-
-.learn-html {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border: solid 1px white;
-    border-radius: 5px;
-    padding: 20px;
-}
-
-.content-learn-html {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    margin-top: 20px;
-}
-
-.learn-complement {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border: solid 1px white;
-    border-radius: 5px;
-    padding: 20px;
-}
-
-.content-learn-complement {
-    display: flex;
-    flex-direction: column;
     justify-content: left;
     margin-top: 20px;
 }
 
 /* ------------------------------------------------------------------------Projets sécurité */
 
-.ssh-devastator {
+.security-box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -203,64 +145,7 @@ li {
     padding: 30px;
 }
 
-.content-ssh-devastator {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: start;
-    margin-top: 20px;
-}
-
-.snoopport {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border: solid 1px white;
-    border-radius: 5px;
-    padding: 30px;
-}
-
-.content-snoopport {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: start;
-    margin-top: 20px;
-}
-
-.intruspotter {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border: solid 1px white;
-    border-radius: 5px;
-    padding: 30px;
-}
-
-.content-intruspotter {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: start;
-    margin-top: 20px;
-}
-
-.wifi-capture {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border: solid 1px white;
-    border-radius: 5px;
-    padding: 30px;
-}
-
-.content-wifi-capture {
+.content-security {
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -269,8 +154,7 @@ li {
 }
 
 /* ------------------------------------------------------------------------Projets informatique */
-
-.tuturbot {
+.info-box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -281,7 +165,7 @@ li {
     padding: 30px;
 }
 
-.content-tuturbot {
+.content-info {
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -289,40 +173,91 @@ li {
     margin-top: 20px;
 }
 
-.sendmefiles {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border: solid 1px white;
-    border-radius: 5px;
-    padding: 30px;
-}
+/* ------------------------------------------------------------------------Adaptation Mobile */
+@media screen and (max-width: 768px) {
+    /* Header/Footer */
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.content-sendmefiles {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: start;
-    margin-top: 20px;
-}
+    header a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.cryptominer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border: solid 1px white;
-    border-radius: 5px;
-    padding: 30px;
-}
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.content-cryptominer {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: start;
-    margin-top: 20px;
+    .logo-top {
+        width: 500px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu-dropdown {
+        position: static;
+        width: 100%;
+    }
+
+    /* Main */
+    main {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .main-title {
+        font-size: 13px;
+    }
+
+    img {
+        margin-bottom: 15px;
+    }
+
+    /* Formations */
+    .learn-box {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .content-learn-language {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-learn {
+        margin-top: 20px;
+    }
+
+    /* Projets informatique */
+    .info-box {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .content-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Projets sécurité */
+    .security-box {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .content-security {
+        flex-direction: column;
+        align-items: center;
+    }
 }
