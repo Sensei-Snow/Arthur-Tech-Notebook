@@ -75,6 +75,19 @@ a:hover {
     display: block;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
 /* ------------------------------------------------------------------------Body */
 
 body {
@@ -179,6 +192,27 @@ picture {
     margin-top: 20px;
 }
 
+/* ------------------------------------------------------------------------Projets électronique */
+.elec-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.content-elec {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+    margin-top: 20px;
+}
+
+/* ------------------------------------------------------------------------Images */
 .thirty-img {
     width: 30%;
 }
@@ -225,6 +259,17 @@ picture {
     .menu-dropdown {
         position: static;
         width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 30px;
+    }
+
+    .footer-content
+    {
+        margin-bottom: 30px;
     }
 
     /* Main */
@@ -279,6 +324,11 @@ picture {
         font-size: 13px;
     }
 
+    .text-info {
+        margin-top: 20px;
+    }
+
+    /* Images */
     .thirty-img {
         width: 50%;
         height: auto;
@@ -307,5 +357,25 @@ picture {
         flex-direction: column;
         align-items: center;
         font-size: 13px;
+    }
+
+    .text-security {
+        margin-top: 20px;
+    }
+
+    /* Projets électronique */
+    .elec-box {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .content-elec {
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .text-elec {
+        margin-top: 20px;
     }
 }
