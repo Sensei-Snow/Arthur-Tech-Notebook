@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sensei-snow.github.io/Arthur-Tech-Notebook/sitemap.xml
