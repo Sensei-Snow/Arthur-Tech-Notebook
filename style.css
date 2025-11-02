@@ -96,8 +96,8 @@ body {
 }
 
 main {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .main-title {
@@ -142,6 +142,8 @@ picture {
     flex-direction: column;
     justify-content: left;
     margin-top: 20px;
+    font-family: "tahoma", sans-serif;
+    margin-left: 20px;
 }
 
 .content-learn-language {
@@ -149,6 +151,7 @@ picture {
     flex-direction: row;
     justify-content: left;
     margin-top: 20px;
+    font-family: "tahoma", sans-serif;
 }
 
 /* ------------------------------------------------------------------------Projets sécurité */
@@ -170,6 +173,7 @@ picture {
     justify-content: left;
     align-items: start;
     margin-top: 20px;
+    font-family: "tahoma", sans-serif;
 }
 
 /* ------------------------------------------------------------------------Projets informatique */
@@ -190,6 +194,7 @@ picture {
     justify-content: left;
     align-items: start;
     margin-top: 20px;
+    font-family: "tahoma", sans-serif;
 }
 
 /* ------------------------------------------------------------------------Projets électronique */
@@ -210,6 +215,7 @@ picture {
     justify-content: left;
     align-items: start;
     margin-top: 20px;
+    font-family: "tahoma", sans-serif;
 }
 
 /* ------------------------------------------------------------------------Images */
@@ -226,7 +232,7 @@ picture {
 }
 
 /* ------------------------------------------------------------------------Adaptation Mobile */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
     /* Header/Footer */
     header {
         flex-direction: column;
@@ -274,8 +280,8 @@ picture {
 
     /* Main */
     main {
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 45px;
+        margin-right: 45px;
     }
 
     .main-title {
@@ -298,6 +304,8 @@ picture {
         flex-direction: column;
         align-items: center;
         font-size: 13px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .content-learn-language img {
@@ -306,6 +314,8 @@ picture {
 
     .content-learn {
         font-size: 13px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .text-learn {
@@ -322,9 +332,47 @@ picture {
         flex-direction: column;
         align-items: center;
         font-size: 13px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .text-info {
+        margin-top: 20px;
+    }
+
+    /* Projets sécurité */
+    .security-box {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .content-security {
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .text-security {
+        margin-top: 20px;
+    }
+
+    /* Projets électronique */
+    .elec-box {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .content-elec {
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .text-elec {
         margin-top: 20px;
     }
 
@@ -346,36 +394,36 @@ picture {
         height: auto;
         margin-left: 30px;
     }
+}
 
-    /* Projets sécurité */
-    .security-box {
-        padding: 15px;
-        text-align: center;
+@media screen and (max-width: 768px) {
+    main {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .content-learn-language {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .content-learn {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .content-info {
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .content-security {
-        flex-direction: column;
-        align-items: center;
-        font-size: 13px;
-    }
-
-    .text-security {
-        margin-top: 20px;
-    }
-
-    /* Projets électronique */
-    .elec-box {
-        padding: 15px;
-        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .content-elec {
-        flex-direction: column;
-        align-items: center;
-        font-size: 13px;
-    }
-
-    .text-elec {
-        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
