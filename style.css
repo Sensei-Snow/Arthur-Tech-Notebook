@@ -139,7 +139,6 @@ picture {
   max-width: 100%;
 }
 
-
 /* ------------------------------------------------------------------------Formations */
 
 .learn-box {
@@ -149,7 +148,7 @@ picture {
     margin-top: 75px;
     margin-bottom: 75px;
     border: solid 2px white;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 20px;
     padding-top: 0px;
 }
@@ -158,7 +157,6 @@ picture {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    margin-top: 20px;
     font-family: "tahoma", sans-serif;
     margin-left: 20px;
 }
@@ -167,7 +165,6 @@ picture {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    margin-top: 20px;
     font-family: "tahoma", sans-serif;
 }
 
@@ -180,7 +177,7 @@ picture {
     margin-top: 75px;
     margin-bottom: 75px;
     border: solid 2px white;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 30px;
     padding-top: 0;
 }
@@ -190,7 +187,6 @@ picture {
     flex-direction: row;
     justify-content: left;
     align-items: start;
-    margin-top: 20px;
     font-family: "tahoma", sans-serif;
     flex-wrap: nowrap;
 }
@@ -203,7 +199,7 @@ picture {
     margin-top: 75px;
     margin-bottom: 75px;
     border: solid 2px white;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 30px;
     padding-top: 0;
 }
@@ -213,7 +209,6 @@ picture {
     flex-direction: row;
     justify-content: left;
     align-items: start;
-    margin-top: 20px;
     font-family: "tahoma", sans-serif;
 }
 
@@ -225,7 +220,7 @@ picture {
     margin-top: 75px;
     margin-bottom: 75px;
     border: solid 2px white;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 30px;
     padding-top: 0;
 }
@@ -235,7 +230,6 @@ picture {
     flex-direction: row;
     justify-content: left;
     align-items: start;
-    margin-top: 20px;
     font-family: "tahoma", sans-serif;
 }
 
@@ -284,7 +278,7 @@ picture {
 }
 
 /* ------------------------------------------------------------------------Adaptation Mobile */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 975px) {
     /* Header/Footer */
     header {
         flex-direction: column;
@@ -369,6 +363,7 @@ picture {
         font-size: 13px;
         margin-left: 20px;
         margin-right: 20px;
+        margin-top: 20px;
     }
 
     .content-learn-language img {
@@ -379,6 +374,7 @@ picture {
         font-size: 13px;
         margin-left: 20px;
         margin-right: 20px;
+        margin-top: 20px;
     }
 
     .text-learn {
@@ -398,6 +394,7 @@ picture {
         font-size: 13px;
         margin-left: 20px;
         margin-right: 20px;
+        margin-top: 20px;
     }
 
     .content-info img {
@@ -421,6 +418,7 @@ picture {
         font-size: 13px;
         margin-left: 20px;
         margin-right: 20px;
+        margin-top: 20px;
     }
 
     .content-security img {
@@ -444,6 +442,7 @@ picture {
         font-size: 13px;
         margin-left: 20px;
         margin-right: 20px;
+        margin-top: 20px;
     }
 
     .content-elec img {
