@@ -156,6 +156,12 @@ picture {
     border-radius: 15px;
     padding: 20px;
     padding-top: 0px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.learn-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 .content-learn {
@@ -185,6 +191,12 @@ picture {
     border-radius: 15px;
     padding: 30px;
     padding-top: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.security-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 .content-security {
@@ -207,6 +219,12 @@ picture {
     border-radius: 15px;
     padding: 30px;
     padding-top: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 .content-info {
@@ -228,6 +246,12 @@ picture {
     border-radius: 15px;
     padding: 30px;
     padding-top: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.elec-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 .content-elec {
