@@ -1,0 +1,181 @@
+/* ------------------------------------------------------------------------Adaptation Tablette */
+@media screen and (max-width: 975px) {
+    /* ------------------------------------------------------------------------Header/Footer */
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-top {
+        width: 500px;
+        text-align: center;
+    }
+
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu-dropdown {
+        position: static;
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 30px;
+    }
+
+    .footer-content
+    {
+        margin-bottom: 30px;
+    }
+
+    /* ------------------------------------------------------------------------Body */
+    main {
+        margin: 0 45px 0 45px;
+    }
+
+    .main-title {
+        font-size: 13px;
+    }
+
+    img {
+        margin-bottom: 15px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .title-box {
+        margin: 0 3% 0 3%;
+        display: flex;
+        justify-content: center;
+        font-size: 17.5px;
+    }
+
+    /* ------------------------------------------------------------------------Formations */
+    .learn-box {
+        padding: 0 15px 15px 15px;
+        text-align: center;
+    }
+
+    .content-learn-language {
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+        margin: 20px 20px 0 20px;
+    }
+
+    .content-learn-language img {
+        margin-left: 40px;
+    }
+
+    .content-learn {
+        font-size: 13px;
+        margin: 20px 20px 0 20px;
+    }
+
+    .text-learn {
+        margin-top: 20px;
+    }
+
+    /* ------------------------------------------------------------------------Projets informatique */
+    .info-box {
+        padding: 0 15px 15px 15px;
+        text-align: center;
+    }
+
+    .content-info {
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+        margin: 20px 20px 0 20px;
+    }
+
+    .content-info img {
+        margin-left: 60px;
+    }
+
+    .text-info {
+        margin-top: 20px;
+    }
+
+    /* ------------------------------------------------------------------------Projets sécurité */
+    .security-box {
+        padding: 0 15px 15px 15px;
+        text-align: center;
+    }
+
+    .content-security {
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+        margin: 20px 20px 0 20px;
+    }
+
+    .content-security img {
+        margin-left: 60px;
+    }
+
+    .text-security {
+        margin-top: 20px;
+    }
+
+    /* ------------------------------------------------------------------------Projets électronique */
+    .elec-box {
+        padding: 0 15px 15px 15px;
+        text-align: center;
+    }
+
+    .content-elec {
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+        margin: 20px 20px 0 20px;
+    }
+
+    .content-elec img {
+        margin-left: 60px;
+    }
+
+    .text-elec {
+        margin-top: 20px;
+    }
+
+    /* ------------------------------------------------------------------------Images */
+    .thirty-img {
+        width: 50%;
+        height: auto;
+        margin-left: 30px;
+    }
+
+    .thirty-five-img {
+        width: 60%;
+        height: auto;
+        margin-left: 30px;
+    }
+
+    .fourty-five-img {
+        width: 70%;
+        height: auto;
+        margin-left: 30px;
+    }
+}
