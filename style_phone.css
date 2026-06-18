@@ -56,4 +56,21 @@
     .content-elec {
         margin: 0 15px 0 15px;
     }
+
+    /* ------------------------------------------------------------------------Images */
+    .twenty-img {
+        margin-top: 15px;
+    }
+
+    .thirty-img {
+        margin-top: 15px;
+    }
+
+    .thirty-five-img {
+        margin-top: 15px;
+    }
+
+    .fourty-five-img {
+        margin-top: 15px;
+    }
 }
