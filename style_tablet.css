@@ -181,6 +181,12 @@
     }
 
     /* ------------------------------------------------------------------------Images */
+    .twenty-img {
+        width: 30%;
+        height: auto;
+        margin-left: 30px;
+    }
+
     .thirty-img {
         width: 50%;
         height: auto;
