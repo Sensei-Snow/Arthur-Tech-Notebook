@@ -14,6 +14,11 @@
     }
 
     /* ------------------------------------------------------------------------Formations */
+    .learn-box:hover {
+        transform: scale(1);
+        box-shadow: 0 10px 20px rgba(0,0,0,0);
+    }
+
     .content-learn-language {
         margin: 0 15px 0 15px;
     }
@@ -23,16 +28,31 @@
     }
 
     /* ------------------------------------------------------------------------Projets informatique */
+    .info-box:hover {
+        transform: scale(1);
+        box-shadow: 0 10px 20px rgba(0,0,0,0);
+    }
+
     .content-info {
         margin: 0 15px 0 15px;
     }
 
     /* ------------------------------------------------------------------------Projets sécurité */
+    .security-box:hover {
+        transform: scale(1);
+        box-shadow: 0 10px 20px rgba(0,0,0,0);
+    }
+
     .content-security {
         margin: 0 15px 0 15px;
     }
 
     /* ------------------------------------------------------------------------Projets électronique */
+    .elec-box:hover {
+        transform: scale(1);
+        box-shadow: 0 10px 20px rgba(0,0,0,0);
+    }
+
     .content-elec {
         margin: 0 15px 0 15px;
     }
