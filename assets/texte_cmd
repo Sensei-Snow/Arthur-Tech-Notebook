@@ -1,0 +1,24 @@
+arthur@tech-notebook:~$ whoami
+Arthur a.k.a? $now_
+
+arthur@tech-notebook:~$ uptime
+19 ans sans redémarrage
+
+arthur@tech-notebook:~$ pwd
+/Terre/France/Angers/ESEO
+
+arthur@tech-notebook:~$ ls /skills
+/Skills
+├─ Code
+│	├─ Python
+│	├─ HTML/CSS
+│	└─ C/C++
+├─ Hardware
+│	├─ Arduino
+│	├─ RaspberryPi Pico
+│	└─ STM32
+└─ Cybersécurité
+	└─ Hacking éthique
+
+arthur@tech-notebook:~$ cat about.txt
+Jeune passionné de code, de hacking et de bidouille, vous trouverez principalement ici des descriptions et illustrations de mes projets mais aussi quelques infos sur mon parcours, notamment à l'ESEO.
