@@ -154,6 +154,8 @@
 
     .text-security {
         margin-top: 20px;
+        flex: 1;
+        min-width: 0;
     }
 
     /* ------------------------------------------------------------------------Projets électronique */

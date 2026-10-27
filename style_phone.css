@@ -48,6 +48,11 @@
         box-shadow: 0 10px 20px rgba(0,0,0,0);
     }
 
+    .text-security {
+        flex: 1;
+        min-width: 0;
+    }
+
     .content-security {
         margin: 0 15px 0 15px;
     }
