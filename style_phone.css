@@ -33,6 +33,11 @@
         box-shadow: 0 10px 20px rgba(0,0,0,0);
     }
 
+    .text-info {
+        flex: 1;
+        min-width: 0;
+    }
+
     .content-info {
         margin: 0 15px 0 15px;
     }
